@@ -43,7 +43,7 @@ db.create_all()
 
 viber = Api(BotConfiguration(
     name = 'DM PROFICAR',
-    avatar = 'http://dmproficar.com/static/core/logo/black_bg.jpg',
+    avatar = 'http://dmproficar.com/static/core/media/logo/black_bg.jpg',
     auth_token = config('VIBER_AUTH_TOKEN')
 ))
 
